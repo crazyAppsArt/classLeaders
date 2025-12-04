@@ -58,6 +58,12 @@ body{
 .apk-actions{display:flex;gap:.5rem;flex-wrap:wrap}
 .note{color:var(--muted);margin-top:.5rem}
 
+/* Alert / Warning styles */
+.alert{padding:1rem;border-radius:10px;margin:1rem 0;box-shadow:0 6px 18px rgba(31,45,45,.04);}
+.alert strong{display:inline-block;margin-bottom:.25rem}
+.alert-warning{background:#fff7ed;border-left:5px solid #f08a5d;color:#5a2b12}
+.alert-danger{background:#fff1f0;border-left:5px solid #ef4444;color:#6b1b1b}
+
 .install{padding:2rem 0;background:linear-gradient(180deg,transparent,rgba(255,255,255,.5))}
 
 .site-footer{padding:1.2rem 0;background:transparent;border-top:1px solid rgba(31,45,45,.04)}
